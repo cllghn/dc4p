@@ -1,7 +1,7 @@
-name: "Data Science for Practitioners"
+name: "Data Carpentry for Practitioners"
 output_dir: "docs"
 navbar:
-  title: "DS4P"
+  title: "DC4P"
   left:
     - text: "Syllabus"
       href: index.html
