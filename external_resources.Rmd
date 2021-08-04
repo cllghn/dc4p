@@ -1,11 +1,19 @@
 ---
-title: "<center><div style='color:black; font-family:verdana'> External Resources</div></center>"
+title: "External Resources"
 output: html_document
 ---
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo = FALSE}
+.title {
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  }
 ```
 
 There are no required textbooks for this course, but the following should serve as good references and primer materials.

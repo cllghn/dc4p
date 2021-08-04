@@ -1,11 +1,20 @@
 ---
-title: "<center><div style='color:black; font-family:verdana'> Data Carpentry for Practitioners</div></center>"
+title: "Data Carpentry for Practitioners"
 output: html_document
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+```{css, echo = FALSE}
+.title {
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  }
+```
+
 
 ```{r, fig.align = 'center'}
 knitr::include_graphics(path = "corelogo.png")

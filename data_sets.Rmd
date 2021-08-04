@@ -8,6 +8,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{css, echo = FALSE}
+.title {
+  color: black;
+  font-family: verdana;
+  text-align: center;
+}
+
 .infobox {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
@@ -63,6 +69,8 @@ Below is a list of data sets used in this course:
 ### [UN Comtrade Database](https://comtrade.un.org/)
 
 UN COMTRADE is the pseudonym for United Nations International Trade Statistics Database. Over 170 reporter countries/areas provide the United Nations Statistics Division (UNSD) with their annual and monthly l international trade statistics data detailed by commodities/service categories and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the processing system. 
+
+Access the dataset for the class [here](https://github.com/cjcallag/dc4p/blob/main/data/un_comtrade_mongolia_commodities_exchanges_2018to2020.csv).
 ::::
 ::::
 
@@ -79,6 +87,8 @@ UN COMTRADE is the pseudonym for United Nations International Trade Statistics D
 ### [The World Bank Group Finances - Major Contract Awards](https://finances.worldbank.org/Procurement/Major-Contract-Awards/kdui-wcs3)
 
 This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. "Supplier Country" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. 
+
+Access the dataset for the class [here](https://github.com/cjcallag/dc4p/blob/main/data/Major_Contract_Awards.csv).
 ::::
 ::::
 
