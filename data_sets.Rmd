@@ -1,0 +1,85 @@
+---
+title: "Data Sets"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo = FALSE}
+.infobox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f0ffff 5px center/3em no-repeat;
+  color: black;
+  border: 2px solid #7fffd4;
+  border-radius: 10px;
+}
+
+.note {
+  background-image: url("imgs/comtradelogo.png");
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lcolumn-20 {
+  float: left;
+  width: 20%;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 75%;
+}
+
+.rcolumn-80 {
+  float: right;
+  width: 80%;
+    padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+```
+
+</br>
+
+Below is a list of data sets used in this course:
+
+
+::::{.infobox}
+
+::::{.row}
+::::{.lcolumn-20}
+<img src="imgs/comtradelogo.png">
+::::
+
+::::{.rcolumn-80}
+### [UN Comtrade Database](https://comtrade.un.org/)
+
+UN COMTRADE is the pseudonym for United Nations International Trade Statistics Database. Over 170 reporter countries/areas provide the United Nations Statistics Division (UNSD) with their annual and monthly l international trade statistics data detailed by commodities/service categories and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the processing system. 
+::::
+::::
+
+::::
+
+::::{.infobox}
+
+::::{.row}
+::::{.lcolumn-20}
+<img src="imgs/The-World-Bank-logo.png">
+::::
+
+::::{.rcolumn-80}
+### [The World Bank Group Finances - Major Contract Awards](https://finances.worldbank.org/Procurement/Major-Contract-Awards/kdui-wcs3)
+
+This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. "Supplier Country" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. 
+::::
+::::
+
+::::

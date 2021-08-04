@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.knit</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">DS4P</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Syllabus</a>
+</li>
+<li>
+  <a href="external_resources.html">External Resources</a>
+</li>
+<li>
+  <a href="data_sets.html">Data Sets</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/cjcallag/dc4p">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore"><center>
+<div style="color:black; font-family:verdana">
+Data Carpentry for Practitioners
+</div>
+</center></h1>
+
+</div>
+
+
+<p><img src="corelogo.png" width="298" style="display: block; margin: auto;" /></p>
+<p></br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Instructor</th>
+<th align="left">Email</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Chris Callaghan</td>
+<td align="left"><a href="mailto:christopher.callaghan@nps.edu" class="email">christopher.callaghan@nps.edu</a></td>
+</tr>
+<tr class="even">
+<td align="left">Rob Schroeder</td>
+<td align="left"><a href="mailto:rcschroe@nps.edu" class="email">rcschroe@nps.edu</a></td>
+</tr>
+</tbody>
+</table>
+<div id="description" class="section level2">
+<h2>Description</h2>
+<p>This course provides an intensive, hands-on introduction to data science for analysts. Participants will learn the fundamental skills necessary to programmatically acquire, ingest, manipulate, merge, summarize, and visualize data.</p>
+<p>Using open source programming tools, participants will engage with real-world statistical, temporal, spatial, and network data spanning topics relevant to their organization’s mission. Participants will also learn how to put all of the pieces together to complete analytical projects, automate workflows, and produce advanced reporting products.</p>
+</div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning Objectives</h2>
+<p>Upon successfully completing this course, participants will be able to:</p>
+<ol style="list-style-type: decimal">
+<li>Perform fundamental data analysis tasks, including:
+<ol style="list-style-type: lower-alpha">
+<li>Managing and importing strutured and unstructured data</li>
+<li>Data carpentry: wrangling/cleaning/manipulating/transforming</li>
+<li>Fusing multiple data sources</li>
+</ol></li>
+<li>Conduct exploratory data analysis and visualization</li>
+<li>Write robust code to automate tasks</li>
+<li>Create rich analytical products to communicate findings</li>
+</ol>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<p>There are no prerequisites. No previous exposure to programming or statistics is expected.</p>
+<ul>
+<li>This is not a statistics course, but we will draw upon ideas and techniques from the field of statistics.</li>
+<li>This is also not a computer science or software engineering course, but we will draw from topics, technologies, and practices that are most closely aligned with those fields.</li>
+</ul>
+</div>
+<div id="technology" class="section level2">
+<h2>Technology</h2>
+<ul>
+<li><a href="https://www.r-project.org">R</a>
+<ul>
+<li>The primary tool we will use throughout this course is the R programming language, a freely available language and environment for statistical computing and graphics that runs on Linux, Windows, and MacOS. While R was originally designed as a language targeting statistical analysis, it has grown to be one of the primary tools used for data science.</li>
+</ul></li>
+<li><a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio</a>
+<ul>
+<li>We will use RStudio as our interface to the R language. RStudio is a freely available integrated development environment (IDE).</li>
+</ul></li>
+</ul>
+<p>If you have a pre-existing installation of R and/or RStudio, we highly recommend reinstalling both and getting up-to-date versions. Below are some links with further readings:</p>
+<ul>
+<li><a href="https://cran.r-project.org/faqs.html">R FAQ</a></li>
+<li><a href="http://cran.r-project.org/doc/manuals/R-admin.html">R Installation and Administration</a></li>
+</ul>
+</div>
+<div id="boilerplate" class="section level2">
+<h2>Boilerplate</h2>
+<ol style="list-style-type: decimal">
+<li><strong>Class participation:</strong> Participation is essential. Please come to class prepared to contribute and actively participate.</li>
+<li><strong>Arrive on time:</strong> Please get to class early. Dealing with software is hard enough, but having people rustling to get situated can make concentrating even harder.</li>
+<li><strong>Lessons:</strong> Daily lessons seek to cover all the topics necessary for a thorough introduction to programmatic data analysis. Should there be any lingering questions, participants are encouraged to raise them in class or contact the instructors directly.</li>
+<li><strong>In-class materials:</strong> All in-class materials will be made available to participants via the course site.</li>
+<li><strong>Course Communications and Instructor Feedback:</strong> For communication regarding the course, please contact the instructors using the information provided above.</li>
+</ol>
+</div>
+<div id="schedule" class="section level2">
+<h2>Schedule</h2>
+<p>Classes will begin shortly after 0900 PDT and conclude at 1500 PDT daily. Daily sessions will break for one hour at 1130 PDT for lunch. Optional office hours will be held from 1500 to 1600 PDT; alternatively, please arrange via email using the information provided above.</p>
+<p>The following is an outline of the coursework, each topic is followed by a list of resources for reference purposes.</p>
+<p><strong>Day 1: Introduction to Programming for Analysts</strong></p>
+<ul>
+<li>Morning
+<ul>
+<li>Systems Check: R and RStudio
+<ul>
+<li><a href="https://stat545.com/block000_r-rstudio-install.html">Stat545: RStudio Install</a></li>
+<li><a href="https://support.rstudio.com/hc/en-us">How to Use RStudio</a></li>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/200552336-Getting-Help-with-R">RStudio’s leads for learning R</a></li>
+<li><a href="https://cran.r-project.org/faqs.html">R FAQ</a></li>
+<li><a href="http://cran.r-project.org/doc/manuals/R-admin.html">R Installation and Administration</a></li>
+</ul></li>
+<li>Installing packages
+<ul>
+<li><a href="https://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages">More about add-on packages in the R Installation and Administration Manual</a></li>
+</ul></li>
+</ul></li>
+<li>Afternoon
+<ul>
+<li>R basics
+<ul>
+<li><a href="https://npscorelab.github.io/COREteachr/3_R_Basics/R_Basics.html">CORE Lab: R Basics</a></li>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects">Stat545: R Basics</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf">R Cheat Sheet</a></li>
+</ul></li>
+<li>Project management
+<ul>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects">R Projects</a></li>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts">R Studio Key Shortcuts</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Day 2 : Data Carpentry: Cleaning and Managing</strong></p>
+<ul>
+<li>Morning
+<ul>
+<li>Data frames
+<ul>
+<li><a href="https://stat545.com/basic-data-care.html">Stat545: Basic Data Care</a></li>
+<li><a href="https://adv-r.hadley.nz/vectors-chap.html#tibble">Advances R: Data frames and tibbles</a></li>
+</ul></li>
+<li>Getting data into and out of R
+<ul>
+<li><a href="http://r4ds.had.co.nz/data-import.html">r4DS: Data Import</a></li>
+<li><a href="https://stat545.com/import-export.html">Stat545: Data Import</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-import.pdf"><em>{readr}</em> Cheat Sheet</a></li>
+</ul></li>
+<li>Introduction to a grammar of data manipulation
+<ul>
+<li><a href="https://stat545.com/dplyr-intro.html">Stat545: Intro to <em>{dplyr}</em></a></li>
+<li><a href="https://stat545.com/dplyr-single.html">Stat545: Single table <em>{dplyr}</em> functions</a></li>
+<li><a href="https://r4ds.had.co.nz/transform.html">r4DS: Data transformation</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-transformation.pdf"><em>{dplyr}</em> Cheat Sheet</a></li>
+</ul></li>
+</ul></li>
+<li>Afternoon
+<ul>
+<li>“Tidy” data
+<ul>
+<li><a href="https://r4ds.had.co.nz/tidy-data.html">r4DS: Tidy Data</a></li>
+</ul></li>
+<li>Basic visualization
+<ul>
+<li><a href="https://r4ds.had.co.nz/data-visualisation.html">r4DS: Data Visualization</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-visualization-2.1.pdf"><em>{ggplot2}</em> Cheat Sheet</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Day 3 : Visualizing Data and Exploring Patterns</strong></p>
+<ul>
+<li>Morning
+<ul>
+<li>More data types
+<ul>
+<li><a href="https://r4ds.had.co.nz/strings.html">r4DS: Strings</a></li>
+<li><a href="https://r4ds.had.co.nz/dates-and-times.html">r4DS: Dates and Times</a></li>
+<li><a href="https://stat545.com/character-vectors.html">Stat454: Character Vectors</a></li>
+<li><a href="https://stat545.com/date-time.html">Stat454: Dates and Times</a></li>
+</ul></li>
+</ul></li>
+<li>Afternoon
+<ul>
+<li>Working with multiple data sources
+<ul>
+<li><a href="https://stat545.com/multiple-tibbles.html">Stat545: When one tibble is not enough</a></li>
+<li><a href="https://r4ds.had.co.nz/relational-data.html">r4DS: Relational data</a></li>
+</ul></li>
+<li>Intermediate visualization
+<ul>
+<li><a href="https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
+<li><a href="https://www.r-graph-gallery.com/time-series.html">The R Graph Gallery: Time Series</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Day 4: Going Deeper</strong></p>
+<ul>
+<li>Morning
+<ul>
+<li>Geospatial
+<ul>
+<li><a href="https://ggplot2-book.org/maps.html">ggplot2: Maps</a></li>
+<li><a href="https://npscorelab.github.io/COREteachr/6_Geospatial_Analysis/Geospatial_Analysis.html">CORE Lab: Geospatial Analysis</a></li>
+<li><a href="https://geocompr.robinlovelace.net/adv-map.html">Geocomputation in R: Making Maps in R</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/sf.pdf"><em>{sf}</em> Cheat Sheet</a></li>
+</ul></li>
+</ul></li>
+<li>Afternoon
+<ul>
+<li>Networks
+<ul>
+<li><a href="https://kateto.net/netscix2016.html">Network Analysis and Visualization with R and igraph</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Day 5: Wrapping up</strong></p>
+<ul>
+<li>Morning
+<ul>
+<li>Communication
+<ul>
+<li><a href="https://r4ds.had.co.nz/r-markdown.html">r4DS: R Markdown</a></li>
+<li><a href="https://rmarkdown.rstudio.com/lesson-1.html">R Studio: R Markdown Introduction</a></li>
+<li><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/rmarkdown-2.0.pdf"><em>{rmarkdown}</em> Cheat Sheet</a></li>
+</ul></li>
+</ul></li>
+<li>Afternoon
+<ul>
+<li>Wrap up</li>
+</ul></li>
+</ul>
+<!--Stat-545-->
+<!--RStudio Links-->
+<!--Package Links-->
+<!--Publications-->
+<!--R Documentation-->
+<!--Wikipedia Links-->
+<!--Misc. Links-->
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
