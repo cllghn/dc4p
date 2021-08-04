@@ -1,0 +1,30 @@
+---
+title: "<center><div style='color:black; font-family:verdana'> External Resources</div></center>"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+There are no required textbooks for this course, but the following should serve as good references and primer materials.
+
+  - **Free Textbooks**
+    - [Chang, W. 2018. *R Graphics Cookbook.* 2nd ed. Sebastopol: O’Reilly Media, Inc.][r-graphics])
+    - [Grolemund, G. 2014. *Hands-On Programming with R.* Sebastopol: O’Reilly Media, Inc.][hands-on-r])
+    - [Lovelace, R., Nowosad, J., and Muenchow, J. 2019. *Geocomputation with R.* Boca Raton: Chapman and Hall/CRC][geocompr-book]
+    - [Wickham, H., and Grolemund, G. 2016. *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data.* 2nd ed. Sebastopol: O’Reilly Media, Inc.][r4ds])
+    - [Wickham, H. 2009. *ggplot2: Elegant Graphics for Data Analysis* 3rd ed. New York: Springer.][ggplot2-book]
+    - [Xie, Y., Allaire, J. J., and Grolemund, G. 2019. *R Markdown The Definitive Guide.* Boca Raton: Chapman and Hall/CRC][rmarkdown-book]
+  
+  - **Websites**
+    - [R for Excel Users][r4excel]
+    - [R Exercises][r-exercises]
+    - [{swirl}: Learn R, in R][swirl]
+    - [R-Bloggers - R news and tutorials][r-bloggers] 
+    - [The R Project site][r-proj]
+    - [The R-specific search engine RSeek][r-seek]
+
+```{r links, child="links.md"}
+```

@@ -1,0 +1,170 @@
+---
+title: "<center><div style='color:black; font-family:verdana'> Data Carpentry for Practitioners</div></center>"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, fig.align = 'center'}
+knitr::include_graphics(path = "corelogo.png")
+```
+
+</br>
+
+| Instructor      | Email                        |
+|:----------------|:-----------------------------|
+| Chris Callaghan | christopher.callaghan@nps.edu |
+| Rob Schroeder   | rcschroe@nps.edu             |
+
+
+
+## Description
+
+This course provides an intensive, hands-on introduction to data science for analysts. Participants will learn the fundamental skills necessary to programmatically acquire, ingest, manipulate, merge, summarize, and visualize data.
+
+Using open source programming tools, participants will engage with real-world statistical, temporal, spatial, and network data spanning topics relevant to their organization’s mission. Participants will also learn how to put all of the pieces together to complete analytical projects, automate workflows, and produce advanced reporting products.
+
+## Learning Objectives
+
+Upon successfully completing this course, participants will be able to:
+
+  1. Perform fundamental data analysis tasks, including:
+      a. Managing and importing strutured and unstructured data
+      b. Data carpentry: wrangling/cleaning/manipulating/transforming
+      c. Fusing multiple data sources
+    
+  2. Conduct exploratory data analysis and visualization
+  3. Write robust code to automate tasks
+  4. Create rich analytical products to communicate findings
+  
+## Prerequisites
+
+There are no prerequisites. No previous exposure to programming or statistics is expected.
+
+  - This is not a statistics course, but we will draw upon ideas and techniques from the field of statistics. 
+  - This is also not a computer science or software engineering course, but we will draw from topics, technologies, and practices that are most closely aligned with those fields.
+
+## Technology
+
+  - [R][r-proj]
+      - The primary tool we will use throughout this course is the R programming language, a freely available language and environment for statistical computing and graphics that runs on Linux, Windows, and MacOS. While R was originally designed as a language targeting statistical analysis, it has grown to be one of the primary tools used for data science.
+
+  - [RStudio][rstudio-official]
+    - We will use RStudio as our interface to the R language. RStudio is a freely available integrated development environment (IDE).
+    
+If you have a pre-existing installation of R and/or RStudio, we highly recommend reinstalling both and getting up-to-date versions. Below are some links  with further readings:
+
+  - [R FAQ][cran-faq]
+  - [R Installation and Administration][cran-R-admin]
+  
+## Boilerplate
+
+  1. **Class participation:** Participation is essential. Please come to class prepared to contribute and actively participate.
+  2. **Arrive on time:** Please get to class early. Dealing with software is hard enough, but having people rustling to get situated can make concentrating even harder.
+  3. **Lessons:** Daily lessons seek to cover all the topics necessary for a thorough introduction to programmatic data analysis. Should there be any lingering questions, participants are encouraged to raise them in class or contact the instructors directly.
+  4. **In-class materials:** All in-class materials will be made available to participants via the course site.
+  5. **Course Communications and Instructor Feedback:** For communication regarding the course, please contact the instructors using the information provided above.
+
+## Schedule
+
+Classes will begin shortly after 0900 PDT and conclude at 1500 PDT daily. Daily sessions will break for one hour at 1130 PDT for lunch. Optional office hours will be held from 1500 to 1600 PDT; alternatively, please arrange via email using the information provided above.
+
+The following is an outline of the coursework, each topic is followed by a list of resources for reference purposes.
+
+**Day 1:  Introduction to Programming for Analysts**
+  
+  - Morning
+    - Systems Check: R and RStudio
+      - [Stat545: RStudio Install][stat545-rstudio-install]
+      - [How to Use RStudio][rstudio-support]
+      - [RStudio's leads for learning R][rstudio-R-help]
+      - [R FAQ][cran-faq]
+      - [R Installation and Administration][cran-R-admin]
+    
+    - Installing packages
+      - [More about add-on packages in the R Installation and Administration Manual][cran-add-ons]
+  
+  - Afternoon
+    - R basics
+      - [CORE Lab: R Basics][core-why-r]
+      - [Stat545: R Basics][stat545-r-basics]
+      - [R Cheat Sheet][r-cheatsheet]
+      
+    - Project management
+      - [R Projects][rstudio-using-projects]
+      - [R Studio Key Shortcuts][rstudio-key-shortcuts]
+
+**Day 2 : Data Carpentry: Cleaning and Managing**
+
+  - Morning
+    - Data frames
+      - [Stat545: Basic Data Care][stat545-basic-data-care]
+      - [Advances R: Data frames and tibbles][adv-r-tibble]
+    
+    - Getting data into and out of R
+      - [r4DS: Data Import][r4ds-data-import]
+      - [Stat545: Data Import][stat545-data-import]
+      - [*{readr}* Cheat Sheet][readr-cheatsheet]
+      
+    - Introduction to a grammar of data manipulation
+      - [Stat545: Intro to *{dplyr}*][stat545-intro-dplyr]
+      - [Stat545: Single table *{dplyr}* functions][stat545-dplyr-single]
+      - [r4DS: Data transformation][r4ds-transform]
+      - [*{dplyr}* Cheat Sheet][dplyr-cheatsheet]
+  
+  - Afternoon
+    - “Tidy” data
+      - [r4DS: Tidy Data][r4ds-tidy]
+      
+    - Basic visualization
+      - [r4DS: Data Visualization][r4ds-data-visualization]
+      - [*{ggplot2}* Cheat Sheet][ggplot2-cheatsheet]
+
+**Day 3 : Visualizing Data and Exploring Patterns**
+
+  - Morning
+    - More data types
+      - [r4DS: Strings][r4ds-strings]
+      - [r4DS: Dates and Times][r4ds-dates-times]
+      - [Stat454: Character Vectors][stat545-characters]
+      - [Stat454: Dates and Times][stat545-date-time]
+    
+  - Afternoon
+    - Working with multiple data sources
+      - [Stat545: When one tibble is not enough][stat545-multiple-tibbles]
+      - [r4DS: Relational data][r4ds-relational-data]
+      
+    - Intermediate visualization
+      - [The R Graph Gallery][r-graph-gallery]
+      - [The R Graph Gallery: Time Series][r-graph-gallery-time]
+
+**Day 4: Going Deeper**
+
+  - Morning
+    - Geospatial
+      - [ggplot2: Maps][ggplot2-maps]
+      - [CORE Lab: Geospatial Analysis][core-geospatial]
+      - [Geocomputation in R: Making Maps in R][geocompr-maps]
+      - [*{sf}* Cheat Sheet][sf-cheatsheet]
+    
+  - Afternoon
+    - Networks
+      - [Network Analysis and Visualization with R and igraph][kateto-igraph]
+
+**Day 5: Wrapping up**
+
+  - Morning
+    - Communication
+      - [r4DS: R Markdown][r4ds-r-markdown]
+      - [R Studio: R Markdown Introduction][rstudio-rmarkdown-intro]
+      - [*{rmarkdown}* Cheat Sheet][rmarkdown-cheatsheet]
+    
+  - Afternoon
+    - Wrap up
+    
+
+    
+```{r links, child="links.md"}
+```

@@ -1,0 +1,557 @@
+"pfCode","yr","period","periodDesc","aggrLevel","IsLeaf","rgCode","rgDesc","rtCode","rtTitle","rt3ISO","ptCode","ptTitle","pt3ISO","ptCode2","ptTitle2","pt3ISO2","cstCode","cstDesc","motCode","motDesc","cmdCode","cmdDescE","qtCode","qtDesc","qtAltCode","qtAltDesc","TradeQuantity","AltQuantity","NetWeight","GrossWeight","TradeValue","CIFValue","FOBValue","estCode"
+"H5",2020,2020,"2020",0,0,1,"Import",8,"Albania","ALB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,906,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,67798,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,109192,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,352,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2716693,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,388009,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,24152720,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3356711,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27982029,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,204,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,218475,NA,NA,0
+"H5",2020,2020,"2020",0,0,3,"Re-Export",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,83600,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,186591,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12612300,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",60,"Bermuda","BMU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,119,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",68,"Bolivia (Plurinational State of)","BOL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,220,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5393,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10114,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,261690,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2421372,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19799,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10250,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,153600,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,49176000,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,1038658,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13863266,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1202091,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1001,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2451614,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,47494,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5009483107,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1617155274,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",191,"Croatia","HRV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,815851,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,233771,NA,NA,0
+"H5",2020,2020,"2020",0,0,3,"Re-Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11492,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,467734,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14332313,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,431282,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3135180,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",222,"El Salvador","SLV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,223,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",222,"El Salvador","SLV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8715,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1759,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2483690,NA,NA,0
+"H5",2020,2020,"2020",0,0,3,"Re-Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,47024,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,155666,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11687569,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4274943,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18831922,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,16800330,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,176300977,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3625,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3037674,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,286354,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,30354299,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,63556,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12313167,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",352,"Iceland","ISL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,659,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1123379,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23203358,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,271432,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3858970,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",376,"Israel","ISR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13000,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,28468303,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31007921,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,218954,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14533510,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,340521557,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",400,"Jordan","JOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,101278,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",404,"Kenya","KEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,70671,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20532967,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,271143042,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",417,"Kyrgyzstan","KGZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,425147,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",422,"Lebanon","LBN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,161243,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",428,"Latvia","LVA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23007,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",428,"Latvia","LVA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2783978,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7887,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7777534,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,25691,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,92590,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",446,"China, Macao SAR","MAC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13073,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,97055,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,24865832,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",480,"Mauritius","MUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6423,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18851629,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4934330,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",498,"Rep. of Moldova","MDA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31635,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",498,"Rep. of Moldova","MDA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,494511,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",499,"Montenegro","MNE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,533,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,177,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1555,NA,NA,0
+"H5",2020,2020,"2020",0,0,3,"Re-Export",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1555,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1687584,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,43763110,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,75131,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11544340,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13588,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,365045,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,623803,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",586,"Pakistan","PAK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",586,"Pakistan","PAK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,208363,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,249035,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1945875,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1760304,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,52851336,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8084,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,198104,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27229,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,678461,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",686,"Senegal","SEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,404341,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1793,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,430843,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,827973,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,15066038,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1348275,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,86442101,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,54554,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2644611,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,144660,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,15738905,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,34001,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1731394,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1391488,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5417774,NA,NA,0
+"H5",2020,2020,"2020",0,0,3,"Re-Export",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,160058,NA,NA,0
+"H5",2020,2020,"2020",0,0,4,"Re-Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,101,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1290773,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,38614323,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,904854657,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10391219,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,25995409,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10501102,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2107394,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31826937,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,272128,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23115734,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",807,"North Macedonia","MKD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9551,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7618504,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20400828,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,310848,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11835244,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,118901562,NA,NA,4
+"H5",2020,2020,"2020",0,0,3,"Re-Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5082202,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",858,"Uruguay","URY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7736,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",858,"Uruguay","URY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,261171,NA,NA,0
+"H5",2020,2020,"2020",0,0,1,"Import",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,128006,NA,NA,4
+"H5",2020,2020,"2020",0,0,2,"Export",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2342627,NA,NA,4
+"H5",2020,2020,"2020",0,0,1,"Import",894,"Zambia","ZMB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6512,NA,NA,0
+"H5",2020,2020,"2020",0,0,2,"Export",894,"Zambia","ZMB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4432,NA,NA,0
+"H4",2020,2020,"2020",0,0,2,"Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1313472,NA,NA,0
+"H4",2020,2020,"2020",0,0,3,"Re-Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14090,NA,NA,0
+"H4",2020,2020,"2020",0,0,1,"Import",308,"Grenada","GRD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9309,NA,NA,0
+"H4",2020,2020,"2020",0,0,1,"Import",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,81901,NA,NA,4
+"H4",2020,2020,"2020",0,0,2,"Export",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,71477,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",8,"Albania","ALB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5909,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",8,"Albania","ALB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14175,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,76373,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,44859,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,843,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2731140,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1749268,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,32913075,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6934876,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,33241715,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,51452,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1000782,NA,NA,0
+"H5",2019,2019,"2019",0,0,3,"Re-Export",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,155530,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,191279,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9976241,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",60,"Bermuda","BMU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,21,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",68,"Bolivia (Plurinational State of)","BOL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12228,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2915,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2731,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1063673,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4387035,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",96,"Brunei Darussalam","BRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,405,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",100,"Bulgaria","BGR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13359,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",100,"Bulgaria","BGR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2339860,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,781,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,373945,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,48800,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,30939600,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",116,"Cambodia","KHM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,419,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",116,"Cambodia","KHM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,77605,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,2372599,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,33829376,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3342427,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3745777,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1112970,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",144,"Sri Lanka","LKA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,969,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",152,"Chile","CHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,250040,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",152,"Chile","CHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1208016,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6266587936,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1830213579,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",170,"Colombia","COL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,315,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",170,"Colombia","COL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14500,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",191,"Croatia","HRV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1660581,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,568814,NA,NA,0
+"H5",2019,2019,"2019",0,0,3,"Re-Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2905,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,621242,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18948365,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120522,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3167199,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",218,"Ecuador","ECU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5419,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",218,"Ecuador","ECU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,38022,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",222,"El Salvador","SLV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1110,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",222,"El Salvador","SLV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8964,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19563,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,815340,NA,NA,0
+"H5",2019,2019,"2019",0,0,3,"Re-Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,135633,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",242,"Fiji","FJI",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3121,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",242,"Fiji","FJI",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2918,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1850886,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10128352,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5671960,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23135371,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19798416,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,169858069,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1495,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1101545,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",320,"Guatemala","GTM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10035,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",340,"Honduras","HND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,362,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1485068,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,42764884,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120024,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10322115,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",352,"Iceland","ISL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23589,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2320,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12284897,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1984055,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5687864,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",376,"Israel","ISR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,259000,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",376,"Israel","ISR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,2000,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,52114393,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,54232628,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,253923,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",384,"Côte d'Ivoire","CIV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2397,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",388,"Jamaica","JAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,117002,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,22430922,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,583299578,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",398,"Kazakhstan","KAZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1748492,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",398,"Kazakhstan","KAZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,58246574,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",400,"Jordan","JOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,107387,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",404,"Kenya","KEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5229,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,32595551,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,291073437,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",414,"Kuwait","KWT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,40775,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",414,"Kuwait","KWT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9542,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",417,"Kyrgyzstan","KGZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,16060,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",417,"Kyrgyzstan","KGZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2321794,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",418,"Lao People's Dem. Rep.","LAO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4188,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",418,"Lao People's Dem. Rep.","LAO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,138036,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",428,"Latvia","LVA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2451477,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13316,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19547133,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6624,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,105525,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,139084,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27139532,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",470,"Malta","MLT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3897779,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",480,"Mauritius","MUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3187,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",480,"Mauritius","MUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8223,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,24483094,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4949441,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",499,"Montenegro","MNE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,407,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",504,"Morocco","MAR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,266642,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",504,"Morocco","MAR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,160962,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1081344,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,45331771,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,91747,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10289765,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,244058,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,572761,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,475287,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",586,"Pakistan","PAK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,440509,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",604,"Peru","PER",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1102,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,16945,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2341871,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1082019,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,54459463,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,16638,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,687800,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1369,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,900791,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",643,"Russian Federation","RUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,33612697,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",643,"Russian Federation","RUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1734488084,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",686,"Senegal","SEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1651,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",686,"Senegal","SEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,53284,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,474,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,862214,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",690,"Seychelles","SYC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,716,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1249814,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,15277499,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,555764,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,94324809,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,110669,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1850020,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,107351,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,15656466,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18770,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1233779,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,53698,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,490045,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8159630,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,37928,NA,NA,0
+"H5",2019,2019,"2019",0,0,4,"Re-Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12196,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",748,"Eswatini","SWZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2247,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,348900,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,39542780,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,625927866,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11100023,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,48856230,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,15851180,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,272842,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,21584409,NA,NA,0
+"H5",2019,2019,"2019",0,0,3,"Re-Export",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18849970,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",788,"Tunisia","TUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1516,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,594353,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,41647780,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",807,"North Macedonia","MKD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1789,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",807,"North Macedonia","MKD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31855,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10576323,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23314997,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,708948,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,25257502,NA,NA,4
+"H5",2019,2019,"2019",0,0,2,"Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,192697508,NA,NA,4
+"H5",2019,2019,"2019",0,0,3,"Re-Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7098146,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",854,"Burkina Faso","BFA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,22994,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",858,"Uruguay","URY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5440,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",858,"Uruguay","URY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,186796,NA,NA,0
+"H5",2019,2019,"2019",0,0,1,"Import",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,518929,NA,NA,0
+"H5",2019,2019,"2019",0,0,2,"Export",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1415753,NA,NA,4
+"H5",2019,2019,"2019",0,0,1,"Import",894,"Zambia","ZMB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1426,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",180,"Dem. Rep. of the Congo","COD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31169,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,330,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1401435,NA,NA,0
+"H4",2019,2019,"2019",0,0,3,"Re-Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,123713,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",478,"Mauritania","MRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8667,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",484,"Mexico","MEX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20157,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",484,"Mexico","MEX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,763078,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",498,"Rep. of Moldova","MDA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1750,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",498,"Rep. of Moldova","MDA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,951054,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",634,"Qatar","QAT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,111868,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",634,"Qatar","QAT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27577,NA,NA,0
+"H4",2019,2019,"2019",0,0,3,"Re-Export",634,"Qatar","QAT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27577,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",682,"Saudi Arabia","SAU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,742328,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",682,"Saudi Arabia","SAU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,499936,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,737611,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,26112632,NA,NA,0
+"H4",2019,2019,"2019",0,0,1,"Import",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,44519,NA,NA,0
+"H4",2019,2019,"2019",0,0,2,"Export",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,130633,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",8,"Albania","ALB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5359,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",8,"Albania","ALB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,400,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",20,"Andorra","AND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1723,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",24,"Angola","AGO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,224,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,0,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",31,"Azerbaijan","AZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,74500,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,1390,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",32,"Argentina","ARG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3129240,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1079915,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",36,"Australia","AUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,29041364,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7632287,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",40,"Austria","AUT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,24852132,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",48,"Bahrain","BHR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1852,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",51,"Armenia","ARM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,145802,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,373246,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",56,"Belgium","BEL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14973370,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",68,"Bolivia (Plurinational State of)","BOL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1960,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5265,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",70,"Bosnia Herzegovina","BIH",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120988,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",72,"Botswana","BWA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,206,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",72,"Botswana","BWA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4097,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,255567,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",76,"Brazil","BRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4254589,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",96,"Brunei Darussalam","BRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10313,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",96,"Brunei Darussalam","BRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,929,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",96,"Brunei Darussalam","BRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,929,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",100,"Bulgaria","BGR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,147244,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",100,"Bulgaria","BGR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2067409,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1434,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",104,"Myanmar","MMR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,183,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,341800,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",112,"Belarus","BLR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19116400,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",116,"Cambodia","KHM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2432,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,2824864,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,21520817,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",124,"Canada","CAN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2653807,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",152,"Chile","CHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,247863,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",152,"Chile","CHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1259772,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6341575086,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",156,"China","CHN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1646742395,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",170,"Colombia","COL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5735,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",170,"Colombia","COL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,28813,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",188,"Costa Rica","CRI",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,69712,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",191,"Croatia","HRV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,132,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",191,"Croatia","HRV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,166075,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,29,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,434754,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",196,"Cyprus","CYP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2772,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,802475,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",203,"Czechia","CZE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,13025836,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,316161,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",208,"Denmark","DNK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4290386,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",214,"Dominican Rep.","DOM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,481,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",218,"Ecuador","ECU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,21708,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",218,"Ecuador","ECU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,181755,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",222,"El Salvador","SLV",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1045,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2293,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5087368,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",233,"Estonia","EST",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,258418,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",242,"Fiji","FJI",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,260,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,167808,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",246,"Finland","FIN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,5106636,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,5855590,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",251,"France","FRA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,27828860,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12974551,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",276,"Germany","DEU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,161321488,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",288,"Ghana","GHA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,35053,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4301,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",300,"Greece","GRC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,949607,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1508933,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",344,"China, Hong Kong SAR","HKG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,40727452,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,597621,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",348,"Hungary","HUN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11526900,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",352,"Iceland","ISL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,73473,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6814617,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",360,"Indonesia","IDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8884268,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",364,"Iran","IRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,11186746,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",364,"Iran","IRN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,253712,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,756067,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",372,"Ireland","IRL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4106426,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",376,"Israel","ISR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,77000,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,48268296,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,39816211,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",381,"Italy","ITA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,123013,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,32373176,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",392,"Japan","JPN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,517813534,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",398,"Kazakhstan","KAZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2822968,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",398,"Kazakhstan","KAZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,73180043,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",400,"Jordan","JOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1754,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",400,"Jordan","JOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,47411,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,26905047,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",410,"Rep. of Korea","KOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,307648814,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",414,"Kuwait","KWT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,140344,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",414,"Kuwait","KWT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,219437,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",417,"Kyrgyzstan","KGZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,175224,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",417,"Kyrgyzstan","KGZ",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2183403,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",422,"Lebanon","LBN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,142215,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",428,"Latvia","LVA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,107,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",428,"Latvia","LVA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1924884,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,184124,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",440,"Lithuania","LTU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,14283036,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,67176,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",442,"Luxembourg","LUX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,385759,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,607667,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",458,"Malaysia","MYS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,24998926,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",470,"Malta","MLT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2008,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",480,"Mauritius","MUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2091,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",480,"Mauritius","MUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7771,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,32509356,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",490,"Other Asia, nes",NA,496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9241450,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",504,"Morocco","MAR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,26465,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",504,"Morocco","MAR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,49163,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1841,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10376,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",516,"Namibia","NAM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10376,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,549972,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",528,"Netherlands","NLD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,38572227,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,58644,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,6175812,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",554,"New Zealand","NZL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120580,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",558,"Nicaragua","NIC",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1688,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,746680,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",579,"Norway","NOR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,364975,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",585,"Palau","PLW",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",586,"Pakistan","PAK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1072,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",586,"Pakistan","PAK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,542289,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",604,"Peru","PER",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,100121,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1185019,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",616,"Poland","POL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,58891693,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,16831,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",620,"Portugal","PRT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4013392,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,500,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",642,"Romania","ROU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1082843,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",643,"Russian Federation","RUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,43290030,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",643,"Russian Federation","RUS",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1609128318,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",646,"Rwanda","RWA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,36,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",646,"Rwanda","RWA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,19876,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,35264,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",688,"Serbia","SRB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,200060,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,850780,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",699,"India","IND",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,28187212,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,528002,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",702,"Singapore","SGP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,107322609,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,639049,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",703,"Slovakia","SVK",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1261239,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,203910,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",705,"Slovenia","SVN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,21203130,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,63663,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1232449,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",710,"South Africa","ZAF",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,26603,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,858004,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8926568,NA,NA,0
+"H5",2018,2018,"2018",0,0,4,"Re-Import",724,"Spain","ESP",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,18008,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",729,"Sudan","SDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,918,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",729,"Sudan","SDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,2,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",729,"Sudan","SDN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,NA,NA,2,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,359068,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",752,"Sweden","SWE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,36215038,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,727147559,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",757,"Switzerland","CHE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9691707,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,70054949,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12915242,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",764,"Thailand","THA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8360,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,97832,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,23240604,NA,NA,0
+"H5",2018,2018,"2018",0,0,3,"Re-Export",784,"United Arab Emirates","ARE",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20121119,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,4279528,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",792,"Turkey","TUR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,37606770,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",807,"North Macedonia","MKD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1319,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",807,"North Macedonia","MKD",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,31655,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,8941668,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",826,"United Kingdom","GBR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,25939932,NA,NA,4
+"H5",2018,2018,"2018",0,0,1,"Import",834,"United Rep. of Tanzania","TZA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,3690,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,10654628,NA,NA,4
+"H5",2018,2018,"2018",0,0,2,"Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,120888075,NA,NA,4
+"H5",2018,2018,"2018",0,0,3,"Re-Export",842,"USA","USA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,7646527,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",858,"Uruguay","URY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,98750,NA,NA,0
+"H5",2018,2018,"2018",0,0,1,"Import",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,182436,NA,NA,0
+"H5",2018,2018,"2018",0,0,2,"Export",860,"Uzbekistan","UZB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1384253,NA,NA,4
+"H4",2018,2018,"2018",0,0,1,"Import",90,"Solomon Isds","SLB",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,12514,NA,NA,4
+"H4",2018,2018,"2018",0,0,1,"Import",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,9631,NA,NA,4
+"H4",2018,2018,"2018",0,0,2,"Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1873646,NA,NA,0
+"H4",2018,2018,"2018",0,0,3,"Re-Export",268,"Georgia","GEO",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,624969,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",404,"Kenya","KEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,131734,NA,NA,0
+"H4",2018,2018,"2018",0,0,2,"Export",404,"Kenya","KEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,43745,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",484,"Mexico","MEX",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,15886,NA,NA,0
+"H4",2018,2018,"2018",0,0,2,"Export",498,"Rep. of Moldova","MDA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,636461,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",566,"Nigeria","NGA",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,765,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1377859,NA,NA,4
+"H4",2018,2018,"2018",0,0,2,"Export",608,"Philippines","PHL",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2572141,NA,NA,4
+"H4",2018,2018,"2018",0,0,2,"Export",634,"Qatar","QAT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,49077,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",682,"Saudi Arabia","SAU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,911013,NA,NA,0
+"H4",2018,2018,"2018",0,0,2,"Export",682,"Saudi Arabia","SAU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,168619,NA,NA,0
+"H4",2018,2018,"2018",0,0,3,"Re-Export",682,"Saudi Arabia","SAU",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,99789,NA,NA,0
+"H4",2018,2018,"2018",0,0,2,"Export",686,"Senegal","SEN",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,141988,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,915620,NA,NA,0
+"H4",2018,2018,"2018",0,0,2,"Export",804,"Ukraine","UKR",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,29158205,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,158944,NA,NA,4
+"H4",2018,2018,"2018",0,0,2,"Export",818,"Egypt","EGY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,1156885,NA,NA,0
+"H4",2018,2018,"2018",0,0,1,"Import",882,"Samoa","WSM",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,69,NA,NA,4
+"H3",2018,2018,"2018",0,0,1,"Import",28,"Antigua and Barbuda","ATG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,35,NA,NA,0
+"H3",2018,2018,"2018",0,0,2,"Export",28,"Antigua and Barbuda","ATG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,428,NA,NA,0
+"H3",2018,2018,"2018",0,0,3,"Re-Export",28,"Antigua and Barbuda","ATG",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,20,NA,NA,0
+"H3",2018,2018,"2018",0,0,1,"Import",328,"Guyana","GUY",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,2411,NA,NA,0
+"H3",2018,2018,"2018",0,0,1,"Import",670,"Saint Vincent and the Grenadines","VCT",496,"Mongolia","MNG",NA,"","","","","","","TOTAL","All Commodities",1,"No Quantity",NA,"",0,NA,0,NA,888,NA,NA,0
