@@ -19,6 +19,8 @@ x <- 3 * 4 # I hear "x gets 12"
 x
 # Note: Object names cannot start with a digit or certain characters.
 
+# Cover logical Operators (google them "R logical operators"): https://www.statmethods.net/management/operators.html
+
 # Save: Ctrl+S (Window) | Cmd+S (Mac)
 
 # Do: Adopt conventions for demarcating words:

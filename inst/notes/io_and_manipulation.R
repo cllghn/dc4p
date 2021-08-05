@@ -218,3 +218,29 @@ un_comtrade %>%
   filter(!is.na(trade_delta)))
 
 write_csv(delta, file = "import_trade_yearly_changes.csv")
+
+
+
+# un_comtrade <- read_csv(file = "https://raw.githubusercontent.com/cjcallag/dc4p/main/data/un_comtrade_mongolia_commodities_exchanges_2018to2020.csv?token=AG4QS5FX5WQ4422OQAG4AG3BCVKV4")
+# 
+# 
+# un_comtrade %>%
+#   select(rtTitle, rgDesc, TradeValue) %>%
+#   mutate(clean_desc = case_when(rgDesc == "Re-Export" ~ "Export",
+#                                 rgDesc == "Re-Import" ~ "Import",
+#                                 TRUE ~ rgDesc # Keeps all present values the same
+#   )) %>%
+#   group_by(rtTitle, clean_desc) %>%
+#   summarise(total = sum(TradeValue)) %>%
+#   pivot_wider(names_from = clean_desc, values_from = total)
+# 
+# un_comtrade %>%
+#   select(rtTitle, rgDesc, TradeValue) %>%
+#   mutate(clean_desc = case_when(rgDesc == "Re-Export" ~ "Export",
+#                                 rgDesc == "Re-Import" ~ "Import",
+#                                 TRUE ~ rgDesc # Keeps all present values the same
+#   )) %>%
+#   group_by(rtTitle, clean_desc) %>%
+#   summarise(total = sum(TradeValue)) %>%
+#   pivot_wider(names_from = clean_desc, values_from = total) %>%
+#   mutate(defecit = Export - Import)

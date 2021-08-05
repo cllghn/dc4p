@@ -44,6 +44,7 @@ E(g)$type <- c("email", "call", "call", "call", "email")
 # Check out those attribures
 edge_attr(g)
 vertex_attr(g)
+g
 
 # Use {igraph}'s algorithms:
 degree(g, mode = "total")
@@ -92,20 +93,34 @@ dim(awards)
 str(awards, nchar = 30)
 summary(awards)
 
+# Exercise 1. Using the data set can you identify:
 # How many networks?
 # How can we make an edgelist with this data set?
 # Would this data be directed or undirected?
 #   - Who points at whom?
 
-# Read graph_from_data_frame() documentation for 'd': ?graph_from_data_frame()
-# Let's focus on the country-to-country network:
-(g <- awards %>%
-  filter(`Fiscal Year` >= 2015,
-         `Supplier Country` != "World" | `Borrower Country` != "World")%>%
+# Country to Country network:
+awards %>%
+  select(`Supplier Country`, `Borrower Country`)
+# Are all nodes "valid"?
+table(awards$`Supplier Country`)
+# Remove "World"
+awards %>% 
   select(`Supplier Country`, `Borrower Country`) %>%
-  group_by(`Supplier Country`, `Borrower Country`) %>%
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") | !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"))
+# Since we have 247,279 rows, filter it down to the last five whole years
+awards %>% 
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") | !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`)
+  
+# Read graph_from_data_frame() documentation for 'd': ?graph_from_data_frame()
+# Make it a graph:
+(g <- awards %>%
+    filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+           `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`) %>%
   graph_from_data_frame())
-
 plot(g)
 
 # Clean it up:
@@ -153,30 +168,32 @@ g %>%
        layout = layout_with_fr)
 # Who might be the potential brokers? Betweenness
 (g <- g %>%
-    set_vertex_attr(name = "betweenness", value = betweenness(., normalized = FALSE)))
+    set_vertex_attr(name = "betweenness",
+                    value = betweenness(., normalized = TRUE)))
 g %>%
   get.data.frame(., what = "vertices") %>%
   arrange(desc(betweenness)) %>%
   head()
-# Where is China on the graph?
+# Where is India on the graph?
 g %>%
   plot(vertex.label = NA,
-       vertex.color = if_else(V(g)$name == "China", "red", "orange"),
-       vertex.size = vertex_attr(., name = "betweenness"),
+       vertex.color = if_else(V(g)$name == "India", "red", "orange"),
+       vertex.size = scales::rescale(vertex_attr(., name = "betweenness"), to = c(1, 5)),
        edge.arrow.size = 0.25,
        layout = layout_with_fr)
-make_ego_graph(g, order = 2, nodes = V(g)$name == "China")[[1]] %>%
+make_ego_graph(g, order = 1, nodes = V(g)$name == "India")[[1]] %>%
   plot(vertex.label.size = 0.5,
-       vertex.label = ifelse(V(.)$name == "China", "China", NA),
-       vertex.color = ifelse(V(.)$name == "China", "red", "orange"),
-       vertex.size = vertex_attr(., name = "betweenness") * 2,
+       vertex.label = ifelse(V(.)$name == "India", "India", NA),
+       vertex.color = ifelse(V(.)$name == "India", "red", "orange"),
+       vertex.size = scales::rescale(vertex_attr(., name = "betweenness"), to = c(1, 5)),
        edge.arrow.size = 0.25,
        layout = layout_with_fr)
 # Automate this
 awards %>%
   # data.frame
-  select(supplier_country, borrower_country) %>%
-  group_by(supplier_country, borrower_country) %>%
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`) %>%
   graph_from_data_frame() %>%
   # igraph
   igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
@@ -186,14 +203,15 @@ awards %>%
   plot(vertex.label = NA,
        vertex.color = if_else(V(g)$name == "Mongolia", "red", "lightblue"),
        vertex.size = scales::rescale(vertex_attr(., name = "in_degree"),
-                                     to = c(5, 15)),
+                                     to = c(1, 7)),
        edge.arrow.size = 0.25,
        layout = layout_with_fr)
 
 awards %>%
   # data.frame
-  select(supplier_country, borrower_country) %>%
-  group_by(supplier_country, borrower_country) %>%
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`) %>%
   graph_from_data_frame() %>%
   # igraph
   igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
@@ -206,47 +224,48 @@ awards %>%
 # Edge attributes ==============================================================
 # Until now, we have focused on the links between nations, but not the values of these (e.g., more money)
 awards %>%
-  select(supplier_country, borrower_country, supplier_contract_amount_usd) %>%
-  mutate(amount = as.double(supplier_contract_amount_usd)) %>%
-  group_by(supplier_country, borrower_country) %>% 
-  summarize(total = sum(amount)) 
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`, `Total Contract Amount (USD)`) %>%
+  group_by(`Supplier Country`, `Borrower Country`) %>% 
+  summarize(total = sum(`Total Contract Amount (USD)`)) 
 # data.frame to igraph
 (g <- awards %>%
-  select(supplier_country, borrower_country, supplier_contract_amount_usd) %>%
-  mutate(amount = as.double(supplier_contract_amount_usd)) %>%
-  group_by(supplier_country, borrower_country) %>% 
-  summarize(total = sum(amount)) %>%
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2015 & `Fiscal Year` <=2020) %>%
+  select(`Supplier Country`, `Borrower Country`, `Total Contract Amount (USD)`) %>%
+  group_by(`Supplier Country`, `Borrower Country`) %>% 
+  summarize(total = sum(`Total Contract Amount (USD)`)) %>%
   graph_from_data_frame())
-# igraph
+
+# What dyad has the highest edge betweenness?
 g %>%
   igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
   set_edge_attr(name = "edge_betweenness",
-            value = edge_betweenness(., weights = E(.)$total)) %>%
+                value = edge_betweenness(., weights = E(.)$total)) %>%
+  get.data.frame(what = "edges") %>% # get a data.frame back
+  arrange(desc(edge_betweenness))
+# igraph plot
+g %>%
+  igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
+  set_edge_attr(name = "edge_betweenness",
+                value = edge_betweenness(., weights = E(.)$total)) %>%
   plot(vertex.label = NA,
        vertex.color = "lightblue",
-       vertex.size = 5,
+       vertex.size = 2,
        edge.width = scales::rescale(edge_attr(., name = "edge_betweenness"),
                                     to = c(0.5, 4)),
        edge.arrow.size = 0.25,
        edge.arrow.width = 2,
        layout = layout_with_fr)
-# What dyad has the highest edge betweenness?
-g %>%
-  igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
-  set_edge_attr(name = "edge_betweenness",
-                value = edge_betweenness(.#, weights = E(.)$total
-                )) %>%
-  get.data.frame(what = "edges") %>% # get a data.frame back
-  arrange(desc(edge_betweenness))
- 
+
 # What about time? Exercise 1. Filter down data to include awards from 2000 onwards. Rerun edge betweenness how does that change the analysis?
 awards %>%
-  mutate(year = as.integer(fiscal_year)) %>%
-  filter(year >= 2010)
-  select(supplier_country, borrower_country, supplier_contract_amount_usd) %>%
-  mutate(amount = as.double(supplier_contract_amount_usd)) %>%
-  group_by(supplier_country, borrower_country) %>% 
-  summarize(total = sum(amount)) %>%
+  filter(!`Supplier Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa") & !`Borrower Country` %in% c("World", "Western Africa", "Eastern Africa", "Africa"),
+         `Fiscal Year` >= 2000 & `Fiscal Year` <=2000) %>%
+  select(`Supplier Country`, `Borrower Country`, `Total Contract Amount (USD)`) %>%
+  group_by(`Supplier Country`, `Borrower Country`) %>% 
+  summarize(total = sum(`Total Contract Amount (USD)`)) %>%
   graph_from_data_frame() %>%
   igraph::simplify(remove.multiple = FALSE, remove.loops = TRUE) %>%
   set_edge_attr(name = "edge_betweenness",
