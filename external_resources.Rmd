@@ -16,6 +16,8 @@ knitr::opts_chunk$set(echo = TRUE)
   }
 ```
 
+</br>
+
 There are no required textbooks for this course, but the following should serve as good references and primer materials.
 
   - **Free Textbooks**

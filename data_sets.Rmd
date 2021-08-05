@@ -57,6 +57,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Below is a list of data sets used in this course:
 
+::::{.infobox}
+
+::::{.row}
+::::{.lcolumn-20}
+<img src="imgs/countrycode.png">
+::::
+
+::::{.rcolumn-80}
+### [countrycode](https://github.com/vincentarelbundock/countrycode)
+
+Data set of standardized country names. Including ~40 different coding schemes and assigned region descriptors. 
+
+The dataset for the class can be accessed [here](https://github.com/cjcallag/dc4p/blob/main/data/codelist.csv).
+::::
+::::
+
+::::
 
 ::::{.infobox}
 
@@ -89,6 +106,25 @@ Access the dataset for the class [here](https://github.com/cjcallag/dc4p/blob/ma
 This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. "Supplier Country" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. 
 
 Access the dataset for the class [here](https://github.com/cjcallag/dc4p/blob/main/data/Major_Contract_Awards.csv).
+::::
+::::
+
+::::
+
+
+::::{.infobox}
+
+::::{.row}
+::::{.lcolumn-20}
+<img src="imgs/The-World-Bank-logo.png">
+::::
+
+::::{.rcolumn-80}
+### [The World Bank  World Development Indicators](https://databank.worldbank.org/source/world-development-indicators#)
+
+World Development Indicators (WDI) is the primary World Bank collection of development indicators, compiled from officially recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
+
+The GDP (current USD) dataset for the class can be accessed [here](https://github.com/cjcallag/dc4p/blob/main/data/wb_gdp_2000to2020.csv).
 ::::
 ::::
 
