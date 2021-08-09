@@ -1,4 +1,4 @@
-# Day 2: Networks
+# Day 4: Networks
 
 # This tutorial covers the basics of network analysis and visualization in {igraph}
 # Install and load a new tool:

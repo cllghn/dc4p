@@ -1,0 +1,155 @@
+---
+title: "Example: GDP Per Capita in Asia"
+author: "Chris Callaghan"
+date: "`r paste0('Last Edited On: ', Sys.Date())`"
+output: 
+  html_document:
+    code_folding: show
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+# Background
+
+This document explores the changes in GDP per capita across the Asian continent from 2000 to 2019. 
+
+# About the data
+
+This analysis leverages data from [The World Bank World Development Indicators](https://finances.worldbank.org/Procurement/Major-Contract-Awards/kdui-wcs3) and [Natural Earth](https://www.naturalearthdata.com/). 
+
+## The World Bank World Development Indicators
+
+These can be accessed through The World Bank Development Indicators [site](https://databank.worldbank.org/source/world-development-indicators#), which allows the user to download individual indicators. This analysis leverages data for:
+
+  - GDP per capita, (current US$)
+
+The data used includes all available countries and observations from 2000 to 2020.
+
+## Natural Earth 
+
+Natural Earth is a public domain map data set. In this analysis the data was accessed via the R package [**{rnaturalearth}**](https://cran.r-project.org/web/packages/rnaturalearth/README.html).
+
+# Data Carpentry
+
+We will need two R packages: **{tidyverse}**, **{rnaturalearth}**, and **{rnaturalearthdata}**. You may need to install these prior to running this analysis:
+
+```{r, eval = FALSE}
+install.packages("tidyverse")
+install.packages("rnaturalearth")
+install.packages("rnaturalearthdata")
+```
+
+Before getting started, load the libraries required:
+
+```{r}
+library(tidyverse)
+library(rnaturalearth)
+library(rnaturalearthdata)
+```
+
+## Getting Spatial Data
+
+We will create maps of Asian and Middle Eastern countries with regard to their foreign direct investment. To do so, use the `ne_countries()` function from **{rnaturalearth}**:
+
+```{r}
+# For more information: ?ne_countries
+spatial_data <- ne_countries(
+  scale = "medium",
+  continent = "Asia",
+  returnclass = "sf"
+) %>%
+  janitor::clean_names()
+```
+
+Take a look at the data:
+
+```{r, eval = FALSE}
+str(spatial_data)
+```
+
+## World Bank Development Indicators
+
+The data was downloaded from The World Bank site and stored as comma-delimited file. First read it:
+
+```{r}
+file_path <- "data/wb_gdppc_2000to2020.csv"
+(fdi <- read_csv(file = here::here(file_path)) %>%
+  janitor::clean_names())
+```
+
+In order to use the data it will need to be cleaned. Specifically:
+  
+  1. Remove extra variable
+  2. "Lengthen" data to clean it more efficiently
+  3. Mutate the variables to clean the data, making the year variable a `date` type and cleaning the `value` variable.
+  3. Remove extra `series_name`s to only include net inflow and outflows in percent of GDP
+
+```{r}
+fdi <- fdi %>%
+  # Remove extra variables:
+  select(-series_code) %>%
+  # Pivot longer to clean the data
+  pivot_longer(-c("country_name", "country_code", "series_name"),
+               names_to = "year", values_to = "value") %>%
+  # Mutate variables to clean data
+  mutate(
+    year  = str_replace(year, ".*(yr)", ""),
+    year  = lubridate::ymd(paste0(year, "01-01")),
+    value = ifelse(value == "..", NA, value),
+    value = as.numeric(value)
+    )
+```
+
+# Analysis
+
+## Temporal Analysis
+
+The figure below, presents the trends in GDP per capita across Asia from 2000 to 2019. The black line represents the average GDP per capita for all nations in Asia for a given year. The blue line is the smoothed line to aid in the process of seeing patterns, the grey area surrounding this line is the standard error. Overall, it appears that GDP per capita plateaued around 2013 and growth has remain constant since.
+
+```{r fdi-asia, fig.cap = "GDP Per Capita Across Asia", out.width = "100%"}
+spatial_data %>%
+  select(geometry, iso_a3, name_sort) %>%
+  left_join(fdi, by = c("iso_a3" = "country_code")) %>%
+  sf::st_set_geometry(NULL) %>%
+  group_by(series_name, year) %>%
+  summarise(value = mean(value, na.rm = TRUE)) %>%
+  filter(!is.na(series_name),
+         year < "2020-01-01") %>%
+  ggplot() + 
+  geom_smooth(aes(x = year, y = value), se = TRUE, alpha = 0.75, lwd = 0.5) +
+  geom_line(aes(x = year, y = value), lwd = 0.5, color = "black") +
+  scale_color_brewer(palette = "Set2") +
+  theme_minimal() +
+  labs(y = "Average GDP Per Capita", x = NULL, colour = NULL, 
+       title = "Average GDP Per Capita Across Asia",
+       subtitle = "2000 to 2019, values in US$",
+       caption = "Data from World Bank") +
+  theme(legend.position = "top")
+```
+
+
+## Spatial Analysis
+
+The map below suggests that Japan and the UAE enjoy a higher average GDP per capita for period of time included in the data.
+
+```{r, fig.cap = "GDP Per Capita Across Asia", out.width="100%"}
+spatial_data %>%
+  select(geometry, iso_a3, name_sort) %>%
+  left_join(fdi, by = c("iso_a3" = "country_code")) %>%
+  group_by(name_sort) %>%
+  summarize(avg_gdppc = mean(value, na.rm = TRUE)) %>%
+  ggplot() +
+  geom_sf(aes(fill = avg_gdppc)) +
+  scale_fill_continuous(low = "yellow", high = "red", na.value = NA, 
+                        name = "Average GDP per capita") +
+  theme_minimal() +
+  labs(title = "2000-2019 Average GDP Per Capita in the Asian Contienent",
+       subtitle = "Values in US$",
+       caption = "Data from World Bank") +
+  theme(legend.position = "right")
+```

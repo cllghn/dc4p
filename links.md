@@ -145,6 +145,7 @@
 
 
 <!--Misc. Links-->
+[tidy-verbs]: https://github.com/gadenbuie/tidyexplain
 [r-graph-gallery]: https://www.r-graph-gallery.com/
 [r-graph-gallery-time]: https://www.r-graph-gallery.com/time-series.html
 [kateto-igraph]: https://kateto.net/netscix2016.html

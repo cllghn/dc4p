@@ -61,7 +61,9 @@ filter(un_comtrade, rt_title %in% c("China", "USA"), yr == 2019, rg_desc == "Imp
 # filter() is explicit, so there is less of a chance that you forget.
 # Hard to see the trade_value in the printout, too many columns... what can we do?
 
+
 # Piping =======================================================================
+# Hello 'Pipe'
 # First a detour Piping %>%
 un_comtrade %>%
   head(3)
@@ -297,29 +299,3 @@ un_comtrade %>%
   filter(!is.na(trade_delta)))
 
 write_csv(delta, file = "import_trade_yearly_changes.csv")
-
-
-
-# un_comtrade <- read_csv(file = "https://raw.githubusercontent.com/cjcallag/dc4p/main/data/un_comtrade_mongolia_commodities_exchanges_2018to2020.csv?token=AG4QS5FX5WQ4422OQAG4AG3BCVKV4")
-# 
-# 
-# un_comtrade %>%
-#   select(rt_title, rg_desc, trade_value) %>%
-#   mutate(clean_desc = case_when(rg_desc == "Re-Export" ~ "Export",
-#                                 rg_desc == "Re-Import" ~ "Import",
-#                                 TRUE ~ rg_desc # Keeps all present values the same
-#   )) %>%
-#   group_by(rt_title, clean_desc) %>%
-#   summarise(total = sum(trade_value)) %>%
-#   pivot_wider(names_from = clean_desc, values_from = total)
-# 
-# un_comtrade %>%
-#   select(rt_title, rg_desc, trade_value) %>%
-#   mutate(clean_desc = case_when(rg_desc == "Re-Export" ~ "Export",
-#                                 rg_desc == "Re-Import" ~ "Import",
-#                                 TRUE ~ rg_desc # Keeps all present values the same
-#   )) %>%
-#   group_by(rt_title, clean_desc) %>%
-#   summarise(total = sum(trade_value)) %>%
-#   pivot_wider(names_from = clean_desc, values_from = total) %>%
-#   mutate(defecit = Export - Import)

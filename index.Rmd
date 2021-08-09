@@ -126,6 +126,7 @@ The following is an outline of the coursework, each topic is followed by a list 
   - Afternoon
     - “Tidy” data
       - [r4DS: Tidy Data][r4ds-tidy]
+      - [Tidy Animated Verbs][tidy-verbs]
       
     - Basic visualization
       - [r4DS: Data Visualization][r4ds-data-visualization]
@@ -145,7 +146,7 @@ The following is an outline of the coursework, each topic is followed by a list 
       - [Stat545: When one tibble is not enough][stat545-multiple-tibbles]
       - [r4DS: Relational data][r4ds-relational-data]
       
-    - Intermediate visualization
+    - More visualization
       - [The R Graph Gallery][r-graph-gallery]
       - [The R Graph Gallery: Time Series][r-graph-gallery-time]
 

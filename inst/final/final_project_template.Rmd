@@ -1,0 +1,28 @@
+---
+title: "Pick a title"
+author: "Your Name"
+date: "`r paste0('Last Edited On: ', Sys.Date())`"
+output: html_document:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+# Background
+
+Provide background on the purpose of this analysis. In other words, what are you trying to do here?
+
+# About the data
+
+Quickly reference the data set(s) you will be using. Include a link to these, codebooks, etc.
+
+# Data Carpentry
+
+Include a description of the data carpentry required to get your data from ingestion to analysis. Please provide code.
+
+# Analysis
+
+Generate an analytic product, which can be a graph, table, network, etc. Once you have generated a product briefly describe your output. 
