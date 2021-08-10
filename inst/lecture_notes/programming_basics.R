@@ -216,6 +216,19 @@ plot(lifeExp ~ year, gapminder)
 plot(lifeExp ~ gdpPercap, gapminder)
 plot(lifeExp ~ log(gdpPercap), gapminder)
 
+# Class questions:
+# 1. Range of years in gapminder?
+range(gapminder$year)
+unique(gapminder$year)
+# 2. What countries are present in the data?
+table(gapminder$country)
+# 3. Mean of all continious variables?
+summary(gapminder$gdpPercap)
+# 4. Rage of GDP per capita?
+mean(gapminder$gdpPercap)
+# 5. Filter data by mean GDP per capita?
+gapminder[gapminder$gdpPercap > mean(gapminder$gdpPercap), ]
+
 # Exercise: Answer the following:
 # What type of vector is the variable 'year'?
 class(gapminder$year)
