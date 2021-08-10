@@ -104,6 +104,8 @@ The following is an outline of the coursework, each topic is followed by a list 
     - Project management
       - [R Projects][rstudio-using-projects]
       - [R Studio Key Shortcuts][rstudio-key-shortcuts]
+      
+  - [Lecture Notes](https://github.com/cjcallag/dc4p/blob/main/inst/lecture_notes/programming_basics.R)
 
 **Day 2 : Data Carpentry: Cleaning and Managing**
 
@@ -111,6 +113,7 @@ The following is an outline of the coursework, each topic is followed by a list 
     - Data frames
       - [Stat545: Basic Data Care][stat545-basic-data-care]
       - [Advances R: Data frames and tibbles][adv-r-tibble]
+      - [Review Notes](https://github.com/cjcallag/dc4p/blob/main/inst/lecture_notes/data_frames.R)
     
     - Getting data into and out of R
       - [r4DS: Data Import][r4ds-data-import]
