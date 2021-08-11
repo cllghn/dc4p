@@ -127,10 +127,6 @@ The following is an outline of the coursework, each topic is followed by a list 
       - [*{dplyr}* Cheat Sheet][dplyr-cheatsheet]
   
   - Afternoon
-    - “Tidy” data
-      - [r4DS: Tidy Data][r4ds-tidy]
-      - [Tidy Animated Verbs][tidy-verbs]
-      
     - Basic visualization
       - [r4DS: Data Visualization][r4ds-data-visualization]
       - [*{ggplot2}* Cheat Sheet][ggplot2-cheatsheet]
@@ -138,20 +134,28 @@ The following is an outline of the coursework, each topic is followed by a list 
 **Day 3 : Visualizing Data and Exploring Patterns**
 
   - Morning
-    - More data types
-      - [r4DS: Strings][r4ds-strings]
-      - [r4DS: Dates and Times][r4ds-dates-times]
-      - [Stat454: Character Vectors][stat545-characters]
-      - [Stat454: Dates and Times][stat545-date-time]
+    - More data carpentry
+      - [*{dplyr}* Cheat Sheet][dplyr-cheatsheet]
+      - [Review Notes](https://github.com/cjcallag/dc4p/blob/main/inst/lecture_notes/io_and_manipulation.R)
+      
+    - “Tidy” data
+      - [r4DS: Tidy Data][r4ds-tidy]
+      - [Tidy Animated Verbs][tidy-verbs]
+    
+    - More visualization
+      - [The R Graph Gallery][r-graph-gallery]
+      
+    <!-- - More data types -->
+    <!--   - [r4DS: Strings][r4ds-strings] -->
+    <!--   - [r4DS: Dates and Times][r4ds-dates-times] -->
+    <!--   - [Stat454: Character Vectors][stat545-characters] -->
+    <!--   - [Stat454: Dates and Times][stat545-date-time] -->
     
   - Afternoon
     - Working with multiple data sources
       - [Stat545: When one tibble is not enough][stat545-multiple-tibbles]
       - [r4DS: Relational data][r4ds-relational-data]
-      
-    - More visualization
-      - [The R Graph Gallery][r-graph-gallery]
-      - [The R Graph Gallery: Time Series][r-graph-gallery-time]
+    
 
 **Day 4: Going Deeper**
 
