@@ -78,7 +78,7 @@ The data was downloaded from The World Bank site and stored as comma-delimited f
 
 ```{r}
 file_path <- "data/wb_gdppc_2000to2020.csv"
-(fdi <- read_csv(file = here::here(file_path)) %>%
+(gdp <- read_csv(file = here::here(file_path)) %>%
   janitor::clean_names())
 ```
 
@@ -90,7 +90,7 @@ In order to use the data it will need to be cleaned. Specifically:
   3. Remove extra `series_name`s to only include net inflow and outflows in percent of GDP
 
 ```{r}
-fdi <- fdi %>%
+gdp <- gdp %>%
   # Remove extra variables:
   select(-series_code) %>%
   # Pivot longer to clean the data
@@ -99,7 +99,7 @@ fdi <- fdi %>%
   # Mutate variables to clean data
   mutate(
     year  = str_replace(year, ".*(yr)", ""),
-    year  = lubridate::ymd(paste0(year, "01-01")),
+    year  = as.numeric(year),
     value = ifelse(value == "..", NA, value),
     value = as.numeric(value)
     )
@@ -114,12 +114,12 @@ The figure below, presents the trends in GDP per capita across Asia from 2000 to
 ```{r fdi-asia, fig.cap = "GDP Per Capita Across Asia", out.width = "100%"}
 spatial_data %>%
   select(geometry, iso_a3, name_sort) %>%
-  left_join(fdi, by = c("iso_a3" = "country_code")) %>%
+  left_join(gdp, by = c("iso_a3" = "country_code")) %>%
   sf::st_set_geometry(NULL) %>%
   group_by(series_name, year) %>%
   summarise(value = mean(value, na.rm = TRUE)) %>%
   filter(!is.na(series_name),
-         year < "2020-01-01") %>%
+         year < 2020) %>%
   ggplot() + 
   geom_smooth(aes(x = year, y = value), se = TRUE, alpha = 0.75, lwd = 0.5) +
   geom_line(aes(x = year, y = value), lwd = 0.5, color = "black") +
@@ -138,18 +138,21 @@ spatial_data %>%
 The map below suggests that Japan and the UAE enjoy a higher average GDP per capita for period of time included in the data.
 
 ```{r, fig.cap = "GDP Per Capita Across Asia", out.width="100%"}
-spatial_data %>%
-  select(geometry, iso_a3, name_sort) %>%
-  left_join(fdi, by = c("iso_a3" = "country_code")) %>%
-  group_by(name_sort) %>%
-  summarize(avg_gdppc = mean(value, na.rm = TRUE)) %>%
+gdp %>%
+  group_by(country_name, country_code) %>%
+  summarise(avg_gdppc = mean(value, na.rm = TRUE)) %>%
+  left_join(spatial_data, by = c("country_code" = "iso_a3")) %>%
+  sf::st_as_sf() %>%
   ggplot() +
   geom_sf(aes(fill = avg_gdppc)) +
   scale_fill_continuous(low = "yellow", high = "red", na.value = NA, 
-                        name = "Average GDP per capita") +
+                        name = "Average GDP per capita",
+                        label = scales::dollar) +
   theme_minimal() +
   labs(title = "2000-2019 Average GDP Per Capita in the Asian Contienent",
        subtitle = "Values in US$",
        caption = "Data from World Bank") +
-  theme(legend.position = "right")
+  theme(legend.position = "right",
+        axis.text  = element_blank(),
+        axis.ticks = element_blank()) 
 ```

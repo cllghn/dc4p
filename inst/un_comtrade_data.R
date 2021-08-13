@@ -25,9 +25,9 @@ get_comtrade <- function(url = "http://comtrade.un.org/api/get?",
   return(out)
   }
 
-reporters <- jsonify::from_json("https://comtrade.un.org/Data/cache/reporterAreas.json")[["results"]]
+reporters <- jsonlite::fromJSON("https://comtrade.un.org/Data/cache/reporterAreas.json")[["results"]]
 reporters <- reporters[!reporters$text %in% c("All", "World", "Mongolia"), ]
-partners <- jsonify::from_json("https://comtrade.un.org/Data/cache/partnerAreas.json")[["results"]]
+partners <- jsonlite::fromJSON("https://comtrade.un.org/Data/cache/partnerAreas.json")[["results"]]
 partners <- partners[!partners$text %in% c("All", "World"), ]
 
 

@@ -102,10 +102,19 @@ mca_2000_2001 %>%
 #   ...
 # )
 # Massive cheat:
-# names <- list.files(path = "data/",
-#                     pattern = "*_Major_Contract_Awards.csv$",
-#                     full.names = TRUE)
-# mca <- purrr::map_df(names, ~.x %>% read_csv() %>% janitor::clean_names())
+names <- list.files(path = "data/",
+                    pattern = "*_Major_Contract_Awards.csv$",
+                    full.names = TRUE)
+mca <- purrr::map_df(names, ~.x %>% read_csv() %>% janitor::clean_names())
+Major_Contract_Awards_2000_2005 <- mca[mca$fiscal_year < 2006, ]
+Major_Contract_Awards_2006_2010 <- mca[mca$fiscal_year >= 2006 & mca$fiscal_year < 2011, ]
+Major_Contract_Awards_2011_2015 <- mca[mca$fiscal_year >= 2011 & mca$fiscal_year < 2015, ]
+Major_Contract_Awards_2016_2021 <- mca[mca$fiscal_year >= 2016 & mca$fiscal_year < 2022, ]
+write_csv(Major_Contract_Awards_2000_2005, file = "data/Major_Contract_Awards_2000_2005.csv")
+write_csv(Major_Contract_Awards_2006_2010, file = "data/Major_Contract_Awards_2006_2010.csv")
+write_csv(Major_Contract_Awards_2011_2015, file = "data/Major_Contract_Awards_2011_2015.csv")
+write_csv(Major_Contract_Awards_2016_2021, file = "data/Major_Contract_Awards_2016_2021.csv")
+
 
 # Inspect the data....
 dim(mca)
@@ -271,7 +280,7 @@ ggplot() + # step 1
        caption = "Institute for Strategic Studies") # Step 8
 # Assign last: 
 p <- ggplot() + 
-  geom_sf(data = joined, aes(fill = total)) +
+  geom_sf(data = totals_2020, aes(fill = total)) +
   scale_fill_continuous(high = "blue",
                         low = "lightblue",  
                         label = scales::dollar) +
